@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "vazir";
+  src: local("vazir"),
+    url("./assets/fonts/persian/Vazir.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sahel";
+  src: local("sahel"),
+    url("./assets/fonts/persian/Sahel.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "play";
+  src: local("play"),
+    url("./assets/fonts/english/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "roboto";
+  src: local("roboto"),
+    url("./assets/fonts/english/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sora";
+  src: local("sora"),
+    url("./assets/fonts/english/Sora-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sans";
+  src: local("sans"),
+    url("./assets/fonts/english/SourceSansPro-Regular.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  direction: rtl;
+  font-family: "vazir";
+}
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
