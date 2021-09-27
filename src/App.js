@@ -2,6 +2,7 @@ import "./App.css";
 import Layout from "./layout/Layout";
 import HomePage from "./pages/HomePage";
 import OrderPage from "./pages/OrderPage";
+import NotFound from "./pages/NotFound";
 import { Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/orders" component={OrderPage} />
+            <Route path="" component={NotFound} />
           </Switch>
         </section>
       </Layout>
