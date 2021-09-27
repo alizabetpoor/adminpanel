@@ -1,0 +1,57 @@
+.social-media a {
+  font-family: "sans";
+  font-size: 14px;
+}
+.menu-bar {
+  animation: navanimation 0.4s;
+}
+@keyframes navanimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .menu-bar span {
+    display: none;
+  }
+}
+.menu {
+  transform: translateX(100%);
+
+  animation: menu 0.4s forwards;
+}
+@keyframes menu {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.nav-mobile {
+  animation: navmobile 0.4s;
+}
+.menu-mobile {
+  animation: menumobile 0.4s forwards;
+}
+@keyframes navmobile {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes menumobile {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+    transform: scale(1);
+  }
+}

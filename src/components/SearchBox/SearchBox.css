@@ -1,0 +1,13 @@
+.searchBox {
+  /* animation: searchanimate 0.6s;
+  animation-timing-function: linear; */
+  overflow: hidden;
+}
+@keyframes searchanimate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}

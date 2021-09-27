@@ -1,0 +1,35 @@
+.menu a {
+  display: flex;
+  align-items: center;
+  padding: 0.9rem 1rem;
+  font-size: 20px;
+  border-radius: 10%/50%;
+}
+.menu a::before {
+  content: "";
+  transition: all 0.3s ease-in-out;
+  background-color: #0112fd;
+}
+.menu svg {
+  font-size: 20px;
+}
+.menu a > span {
+  margin-right: 1rem;
+  z-index: 2;
+}
+.active-nav {
+  background-color: white;
+  position: relative;
+  color: #0112fd;
+  transition: all 0.3s ease-in-out;
+}
+.menu-bar .active-nav::before {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  height: 100%;
+  background-color: white !important;
+}

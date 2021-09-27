@@ -1,0 +1,25 @@
+.active-tab {
+  border-bottom: 2px solid #0112fd;
+  color: #333;
+  font-weight: 800;
+}
+.filter-orders > li {
+  cursor: pointer;
+  padding: 0 4px;
+}
+.list-orders li {
+  min-width: calc(100% / 7);
+  margin: 0 3px;
+}
+.active-order {
+  background-color: #2231ff;
+  color: white;
+  border: 0;
+  transition: 0.2s ease-in-out;
+}
+.active-order .operations div {
+  background-color: #3c49ff;
+}
+.active-pagination {
+  color: #0112fd;
+}

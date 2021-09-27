@@ -1,3 +1,25 @@
 .App {
   height: 100%;
 }
+* {
+  scrollbar-color: rgb(22, 145, 247) rgb(150, 238, 253);
+  scrollbar-width: thin;
+}
+*::-webkit-scrollbar {
+  background-color: rgb(150, 238, 253);
+  width: 7px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgb(22, 145, 247);
+}
+.main-container {
+  animation: main 0.6s;
+}
+@keyframes main {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

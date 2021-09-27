@@ -1,0 +1,30 @@
+.tableorders {
+  border-collapse: collapse;
+  border: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+.tableorders th,
+td {
+  /* border: 1px solid rgba(156, 163, 175); */
+
+  padding: 12px 15px;
+  transition: backgroud-color 0.3s ease-in-out;
+}
+.tableorders > thead {
+  background-color: #009879;
+  color: #fff;
+}
+.tableorders > tbody > tr {
+  border-bottom: 1px solid #dddddd;
+}
+.tableorders > tbody > tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.tableorders > tbody > tr:last-of-type {
+  border-bottom: 2px solid #009879 !important;
+}
+.tableorders > tbody > tr:hover {
+  background-color: rgba(229, 231, 235);
+  color: #009879;
+}
